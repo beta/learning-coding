@@ -1,0 +1,70 @@
+body {
+  background: url('../images/background.jpg');
+  background-size: cover;
+  height: 100%;
+}
+
+.wam-page {
+  position: absolute;
+  width: 56%;
+  min-height: 100%;
+  top: 10%;
+  left: 22%;
+  border-radius: 2px;
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14),
+              0 3px 1px -2px rgba(0, 0, 0, .2),
+              0 1px 5px 0 rgba(0, 0, 0, .12);
+}
+
+.wam-page .wam-title {
+  margin: 32px 24px;
+  font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+  font-size: 38px;
+}
+
+.wam-page .wam-title .wam-title__word {
+  display: block;
+}
+
+.wam-page hr {
+  margin: 0;
+  color: rgba(0, 0, 0, .12);
+}
+
+.wam-page table {
+  width: 100%;
+  background: rgba(0, 0, 0, 0);
+  border: 0;
+  border-color: rgba(0, 0, 0, .12)
+}
+
+.wam-page .wam-table-title {
+  font-size: 15px;
+}
+
+.wam-page .wam-textfield {
+  max-width: 200px;
+}
+
+.wam-page .wam-add-course {
+  position: absolute;
+  top: 187px;
+  right: 24px;
+  background-color: #eee;
+}
+
+.wam-page .course2,.course3,.course4,.course5 {
+  display: none;
+}
+
+.wam-page .wam-calculate-button {
+  float: right;
+  margin: 24px;
+}
+
+.wam-page .wam-response-text p {
+  margin: 24px;
+  font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}

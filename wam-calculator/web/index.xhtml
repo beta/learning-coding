@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <meta charset="utf-8" />
+        <title>WAM Calculator</title>
+        
+        <link rel="stylesheet" href="./assets/css/material.min.css" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        
+        <script src="./assets/js/material.min.js"></script>
+    </h:head>
+    <h:body>
+        <div class="wam-page">
+            <h1 class="wam-title">
+                <span class="wam-title__word">WAM</span><span class="wam-title__word">Calculator</span>
+            </h1>
+            
+            <h:form>
+                <table class="mdl-data-table mdl-js-data-table">
+                    <thead>
+                        <tr>
+                            <th class="wam-table-title mdl-data-table__cell--non-numeric">Credit</th>
+                            <th class="wam-table-title mdl-data-table__cell--non-numeric">Score</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="course1">
+                            <td class="mdl-data-table__cell--non-numeric">
+                                <div class="wam-textfield mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                    <h:inputText class="mdl-textfield__input" value="#{WamCalculatorBean.credit1}"/>
+                                    <label class="mdl-textfield__label">Credit</label>
+                                </div>
+                            </td>
+                            <td class="mdl-data-table__cell--non-numeric">
+                                <div class="wam-textfield mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                    <h:inputText class="mdl-textfield__input" value="#{WamCalculatorBean.score1}"/>
+                                    <label class="mdl-textfield__label">Score</label>
+                                </div>
+                            </td>
+                        </tr>
+                        
+                        <tr class="course2">
+                            <td class="mdl-data-table__cell--non-numeric">
+                                <div class="wam-textfield mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                    <h:inputText class="mdl-textfield__input" value="#{WamCalculatorBean.credit2}"/>
+                                    <label class="mdl-textfield__label">Credit</label>
+                                </div>
+                            </td>
+                            <td class="mdl-data-table__cell--non-numeric">
+                                <div class="wam-textfield mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                    <h:inputText class="mdl-textfield__input" value="#{WamCalculatorBean.score2}"/>
+                                    <label class="mdl-textfield__label">Score</label>
+                                </div>
+                            </td>
+                        </tr>
+                        
+                        <tr class="course3">
+                            <td class="mdl-data-table__cell--non-numeric">
+                                <div class="wam-textfield mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                    <h:inputText class="mdl-textfield__input" value="#{WamCalculatorBean.credit3}"/>
+                                    <label class="mdl-textfield__label">Credit</label>
+                                </div>
+                            </td>
+                            <td class="mdl-data-table__cell--non-numeric">
+                                <div class="wam-textfield mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                    <h:inputText class="mdl-textfield__input" value="#{WamCalculatorBean.score3}"/>
+                                    <label class="mdl-textfield__label">Score</label>
+                                </div>
+                            </td>
+                        </tr>
+                        
+                        <tr class="course4">
+                            <td class="mdl-data-table__cell--non-numeric">
+                                <div class="wam-textfield mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                    <h:inputText class="mdl-textfield__input" value="#{WamCalculatorBean.credit4}"/>
+                                    <label class="mdl-textfield__label">Credit</label>
+                                </div>
+                            </td>
+                            <td class="mdl-data-table__cell--non-numeric">
+                                <div class="wam-textfield mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                    <h:inputText class="mdl-textfield__input" value="#{WamCalculatorBean.score4}"/>
+                                    <label class="mdl-textfield__label">Score</label>
+                                </div>
+                            </td>
+                        </tr>
+                        
+                        <tr class="course5">
+                            <td class="mdl-data-table__cell--non-numeric">
+                                <div class="wam-textfield mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                    <h:inputText class="mdl-textfield__input" value="#{WamCalculatorBean.credit5}"/>
+                                    <label class="mdl-textfield__label">Credit</label>
+                                </div>
+                            </td>
+                            <td class="mdl-data-table__cell--non-numeric">
+                                <div class="wam-textfield mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                    <h:inputText class="mdl-textfield__input" value="#{WamCalculatorBean.score5}"/>
+                                    <label class="mdl-textfield__label">Score</label>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <h:commandButton class="wam-calculate-button mdl-button mdl-js-button mdl-button--raised" id="submit" value="Calculate" action="response" />
+            </h:form>
+            
+            <button class="wam-add-course mdl-button mdl-js-button mdl-button--fab">
+                <i class="material-icons">&#xE145;</i>
+            </button>
+        </div>
+        
+        <script src="./assets/js/jquery-2.1.4.min.js"></script>
+        <script src="./assets/js/script.js"></script>
+    </h:body>
+</html>

@@ -1,6 +1,6 @@
 # Learning Coding
 
-This repo contains several tiny project I've worked on for learning coding, for fun of just for homework.
+This repo contains several tiny projects I've worked on for learning coding, for fun of just for homework.
 
 ## License
 

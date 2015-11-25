@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ejb" name="session-beans-test:ejb exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/session_beans_test_ejb_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="session-beans-test/ejb/EJB" />
+      <element id="module-output" name="session-beans-test" />
+    </root>
+  </artifact>
+</component>
